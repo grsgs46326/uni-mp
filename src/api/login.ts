@@ -23,3 +23,20 @@ export const postLoginWxMinSimpleAPI = (phoneNumber: string) => {
     }
   })
 }
+
+/**
+ * 获取个⼈信息
+ */
+export const getMemberProfileAPI = () => {
+  return http<ProfileDetail>({
+    method: 'GET',
+    url: '/user/profile'
+  })
+}
+export const putMemberProfileAPI = (data: ProfileParams) => {
+  return http<ProfileDetail>({
+    method: 'PUT',
+    url: '/user/profile',
+    data
+  })
+}

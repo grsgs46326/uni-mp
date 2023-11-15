@@ -80,7 +80,6 @@
       }
     ]
   },
-
   "subPackages": [
     {
       "root": "pagesMember",
@@ -102,7 +101,6 @@
       ]
     }
   ],
-
   "preloadRule": {
     "pages/my/my": {
       "network": "all",
