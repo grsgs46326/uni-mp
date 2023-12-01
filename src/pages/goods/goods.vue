@@ -237,7 +237,7 @@ const onBuyNow = (ev: SkuPopupEvent) => {
     </view>
     <view class="buttons">
       <view @tap="openSkuPopup(SkuMode.Cart)" class="addcart"> 加入购物车 </view>
-      <view @tap="openSkuPopup(SkuMode.Buy)" class="buynow" @click="onBuyNow"> 立即购买 </view>
+      <view @tap="openSkuPopup(SkuMode.Buy)" class="buynow"> 立即购买 </view>
     </view>
   </view>
 </template>
